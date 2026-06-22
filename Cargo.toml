@@ -1,0 +1,15 @@
+[package]
+name = "any2fasta"
+version = "0.9.0"
+edition = "2021"
+authors = ["Your Name <you@example.com>"]
+description = "Convert various sequence formats into FASTA"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+flate2 = "1.0"
+bzip2 = "0.4"
+zstd = "0.13"
+zip = "0.6"
+anyhow = "1.0"
