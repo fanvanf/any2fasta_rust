@@ -47,7 +47,7 @@ Automatically decompress these formats without manual pre-decompression:
 ### Build from source (Cross-platform)
 ```bash
 # Clone your local project
-git clone <your-repository-url>
+git clone https://github.com/fanvanf/any2fasta_rust.git
 cd any2fasta
 cargo build --release
 # Binary located at ./target/release/any2fasta
